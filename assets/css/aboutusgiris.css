@@ -58,7 +58,7 @@
     font-size: 3.2rem;
     margin-bottom: 1.1rem;
     mix-blend-mode: difference;
-    background-color: #000000;
+    /*background-color: #000000;*/
     color: #ffffff;
     line-height: 82.9px;
   }
