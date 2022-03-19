@@ -1,0 +1,11 @@
+@font-face {
+	font-family: 'CaltonEleganceSansRegular';
+	src: url(../../assets/fonts/CaltonEleganceSansRegular.eot) format('embedded-opentype'),
+	url(../../assets/fonts/CaltonEleganceSansRegular.eot) format('embedded-opentype'),
+	url(../../assets/fonts/CaltonEleganceSansRegular.woff2) format('woff2'),
+	url(../../assets/fonts/CaltonEleganceSansRegular.woff) format('woff'),
+	url(../../assets/fonts/CaltonEleganceSansRegular.ttf) format('truetype'),
+	url(../../assets/fonts/CaltonEleganceSansRegular.svg) format('svg');
+	font-weight: 400;
+	font-style: normal;
+}

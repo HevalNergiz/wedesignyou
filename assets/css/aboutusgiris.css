@@ -1,0 +1,153 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+* {
+  outline: none;
+  padding: 0;
+}
+
+*::after {
+  margin: 0;
+  padding: 0;
+}
+
+*::before {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.aboutus-section p:last-child {
+  border-bottom: solid 0px;
+  padding-bottom: 0rem;
+  margin-bottom: 2rem;
+}
+
+.aboutus-section p {
+  border-bottom: solid 1px;
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+  /*font-family: 'Poppins';*/
+  font-weight: 300;
+}
+
+@media (max-width: 768px) {
+  .hizmetlerimiz h1 {
+    font-weight: 500;
+    font-family: 'romelio_sansregular';
+    font-size: 2.6rem;
+    margin-bottom: 1.3rem;
+    mix-blend-mode: difference;
+    /*background-color: #000000;*/
+    color: #ffffff;
+    padding: 0 1rem;
+    line-height: 68.92px;
+  }
+}
+
+@media (min-width: 768px) {
+  .hizmetlerimiz h1 {
+    font-weight: 900;
+    font-family: 'romelio_sansregular';
+    font-size: 3.2rem;
+    margin-bottom: 1.1rem;
+    mix-blend-mode: difference;
+    background-color: #000000;
+    color: #ffffff;
+    line-height: 82.9px;
+  }
+}
+
+.hizmetlerimiz li {
+  margin-bottom: 15rem!important;
+}
+
+.hizmetlerimiz li:last-child {
+  margin-bottom: 6rem!important;
+}
+
+@media (max-width: 992px) {
+  .girissolgorsel {
+    height: 40vh;
+    /*margin-top: 5rem;*/
+  }
+}
+
+.girissolgorsel {
+  background: url("../../assets/img/about-us-image.webp") center / cover;
+}
+
+@media (max-width: 576px) {
+  .myheader {
+    background: url("../../assets/img/ortaimageandpattern-mobil.png") top / cover;
+  }
+}
+
+@media (min-width: 576px) {
+  .myheader {
+    background: url("../../assets/img/ortaimageandpattern.png") center / cover;
+  }
+}
+
+@media (min-width: 768px) {
+  .mobildegoster {
+    display: none;
+  }
+}
+
+@media (min-width: 992px) {
+  .mobildegoster2 {
+    display: none;
+  }
+}
+
+.hizmetlerlisteogesi {
+  padding: .8rem 1.3rem;
+  background-color: #000000;
+  color: #ffffff;
+  margin-right: 1rem;
+}
+
+@media (max-width: 992px) {
+  .girissolharita {
+    height: 50vh;
+  }
+}
+
+@media (max-width: 768px) {
+  .krallar .col:first-child {
+    margin-bottom: 3rem;
+  }
+}
+
+.featuredsocialicons a {
+  text-decoration: none;
+  color: #f2f2f2;
+  font-size: 1.5rem;
+  margin: 0 0.7rem;
+}
+
+.featuredsocialicons {
+  margin-top: 1.5rem;
+}
+
+.franchiseform div {
+  margin-bottom: .5rem;
+}
+
+.franchiseform .form-text {
+  color: #121212;
+}
+
+@media (max-width: 768px) {
+  .makeup {
+    font-size: 2.5rem!important;
+  }
+}
+

@@ -1,0 +1,112 @@
+::-moz-selection {
+  background: #121212;
+  color: white;
+}
+
+.demo-wrapper ::selection {
+  background: #121212;
+  color: white;
+}
+
+.demo-wrapper img {
+  width: 100%;
+  height: auto;
+  background: #f0f0f0;
+}
+
+.demo-wrapper ul {
+  padding-left: 1rem;
+  list-style: none;
+}
+
+@media (max-width: 768px) {
+  .demo-wrapper li {
+    flex-shrink: 0;
+    width: clamp(10px, 55vw, 800px);
+    padding-right: 1rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .demo-wrapper li {
+    flex-shrink: 0;
+    width: clamp(10px, 40vw, 800px);
+    padding-right: 1rem;
+  }
+}
+
+.demo-wrapper header {
+  height: 50vh;
+}
+
+.demo-wrapper footer {
+  height: 50vh;
+}
+
+.demo-wrapper :-webkit-any-link {
+  color: #4e9815;
+}
+
+.demo-wrapper :-moz-any-link {
+  color: #4e9815;
+}
+
+.demo-wrapper :any-link {
+  color: #4e9815;
+}
+
+.df {
+  display: flex;
+}
+
+.aic {
+  align-items: center;
+}
+
+.jcc {
+  justify-content: center;
+}
+
+.loader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: black;
+  color: white;
+  z-index: 9999999999999999999999999999;
+}
+
+.demo-wrapper {
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.demo-wrapper .wrapper {
+  display: flex;
+}
+
+.demo-gallery:not(.last) {
+  /*padding-bottom: 1rem;*/
+}
+
+.demo-text .text {
+  font-size: clamp(3.2rem, 14vw, 16rem);
+  line-height: 1.4;
+  font-weight: 500;
+  font-family: 'romelio_sansregular';
+}
+
+.loader h2 {
+  font-size: 2rem;
+  position: absolute;
+  bottom: 20%;
+  left: calc(50% - 22px);
+}
+
+.loader h1 {
+  font-size: 5rem;
+  font-family: 'romelio_sansregular';
+}
+

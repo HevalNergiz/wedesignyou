@@ -1,0 +1,81 @@
+.highlight-blue {
+  color: #fff;
+  background-color: #121212;
+  padding: 50px 0 10px 0;
+  /*border-radius: 15px;*/
+}
+
+.highlight-blue p {
+  color: #f2f2f2;
+  line-height: 1.5;
+}
+
+.highlight-blue h1 {
+  font-weight: normal;
+  margin-bottom: 25px;
+  line-height: 1.5;
+  padding-top: 0;
+  margin-top: 0;
+  color: inherit;
+  font-family: 'romelio_sansregular';
+  font-weight: 500;
+}
+
+.highlight-blue .intro {
+  font-size: 16px;
+  max-width: 500px;
+  margin: 0 auto 25px;
+}
+
+.highlight-blue .buttons {
+  text-align: center;
+}
+
+.highlight-blue .buttons .btn {
+  padding: 16px 32px;
+  margin: 6px;
+  border: none;
+  background: none;
+  box-shadow: none;
+  text-shadow: none;
+  opacity: 0.9;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 13px;
+  letter-spacing: 0.4px;
+  line-height: 1;
+}
+
+.highlight-blue .buttons .btn:hover {
+  opacity: 1;
+  background-color: #fff;
+  color: #121212;
+}
+
+.highlight-blue .buttons .btn:active {
+  transform: translateY(1px);
+}
+
+.highlight-blue .buttons .btn-primary, .highlight-blue .buttons .btn-primary:active {
+  border: 2px solid rgba(255,255,255,0.7);
+  border-radius: 0px;
+  color: #ebeff1;
+  box-shadow: none;
+  text-shadow: none;
+  padding: 14px 24px;
+  background: transparent;
+  transition: background-color 0.25s;
+}
+
+@media (max-width: 576px) {
+  .bizeulasin {
+    max-width: 50%;
+  }
+}
+
+@media (min-width: 576px) {
+  .bizeulasin {
+    max-width: 37%;
+  }
+}
+
