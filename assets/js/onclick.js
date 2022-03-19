@@ -39,3 +39,10 @@ $('#mail1').on('click', function(e){
       e.preventDefault();
  window.open("mailto:info@wedesignyou.co", '_blank').focus();
     });
+
+
+$('#tani').on('click', function(e){
+      e.preventDefault();
+ window.open("/about-us.html/#ekibimiz", '_self');
+    });
+
