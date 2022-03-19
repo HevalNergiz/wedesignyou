@@ -43,6 +43,6 @@ $('#mail1').on('click', function(e){
 
 $('#tani').on('click', function(e){
       e.preventDefault();
- window.open("about-us.html#ekibimiz", '_self').focus();
+window.location.href = 'about-us.html#ekibimiz';
     });
 
