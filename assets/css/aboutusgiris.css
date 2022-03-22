@@ -85,13 +85,13 @@
 
 @media (max-width: 576px) {
   .myheader {
-    background: url("../../assets/img/ortaimageandpattern-mobil.png") top / cover;
+    background: url("../../assets/img/ortaimageandpattern-mobil.webp") top / cover;
   }
 }
 
 @media (min-width: 576px) {
   .myheader {
-    background: url("../../assets/img/ortaimageandpattern.png") center / cover;
+    background: url("../../assets/img/ortaimageandpattern.webp") center / cover;
   }
 }
 
