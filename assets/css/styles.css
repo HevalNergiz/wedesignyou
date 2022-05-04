@@ -176,7 +176,7 @@
 
 @media (max-width: 576px) {
   .altkisim.sol > img {
-    width: 65vw;
+    /*width: 65vw;*/
   }
 }
 
@@ -204,7 +204,7 @@
   .altkisim.sol > img {
     width: 85vw;
     position: absolute;
-    bottom: 7rem;
+    bottom: 3rem;
     fill: #121212;
     max-width: 527px;
   }
@@ -226,7 +226,7 @@
   .altkisim.sag {
     position: absolute;
     z-index: 9;
-    bottom: 2rem;
+    bottom: 11rem;
     width: 100%;
     display: flex;
     justify-content: start;

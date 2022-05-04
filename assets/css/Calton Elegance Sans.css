@@ -4,4 +4,5 @@
 	url(../../assets/fonts/CaltonEleganceSans.woff) format('woff');
 	font-weight: normal;
 	font-style: normal;
+	font-display: auto;
 }
