@@ -8,9 +8,7 @@
   border: none!important;
 }
 
-.border:hover {
-  /*border: 1px solid #fff;*/
-}
+
 
 .card {
   height: 379px;
@@ -29,7 +27,7 @@
 }
 
 .card0 {
-  background: url("../../assets/img/gulegriboz2.jpg") center center no-repeat;
+  background: url("../../assets/img/gulgunozgunes2.png") center center no-repeat;
   background-size: 304px;
 }
 
@@ -39,8 +37,8 @@
 }
 
 .card0:hover {
-  background: url("../../assets/img/gulegriboz2.jpg") center right no-repeat;
-  background-size: 560px;
+  background: url("../../assets/img/gulgunozgunes2.png") center right no-repeat;
+  background-size: 540px;
 }
 
 .card1:hover {
